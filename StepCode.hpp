@@ -333,7 +333,7 @@ namespace itmmti
      SizeT & bitSize, //!< [out] Capture valBitSize.
      SizeT & size //!< [out] Capture size.
      ) : vals_(nullptr) {
-      this->cpStepCoeCore(other, otherBitSize, otherSize, bitCapacity, bitSize, size);
+      this->cpStepCodeCore(other, otherBitSize, otherSize, bitCapacity, bitSize, size);
     }
 
 
